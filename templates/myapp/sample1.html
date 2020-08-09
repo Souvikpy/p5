@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}
+    <title>vegetable Page</title>
+{% endblock %}
+
+{% block content %}
+
+<div class="container">
+    <div class="jumbotron">
+        <h1>Welcome to vegetable page</h1>
+        <h2>vegetable list is {{vegetable}}</h2>
+         
+        <img src="{% static 'images/6.png' %}" alt="No Image Found" height="200" width="300">
+        <img src="{% static 'images/7.png' %}" alt="No Image Found" height="200" width="300">
+        <img src="{% static 'images/8.png' %}" alt="No Image Found" height="200" width="300">
+        <img src="{% static 'images/9.png' %}" alt="No Image Found" height="200" width="300">
+        <img src="{% static 'images/10.png' %}" alt="No Image Found" height="200" width="300">
+         
+        
+        
+        
+    </div>
+</div>
+
+      
+{% endblock %}
+
